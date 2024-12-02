@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fe7a299d25c96b4e9edfeb307be323f, type: 3}
+  m_Name: Helmet
+  m_EditorClassIdentifier: 
+  itemType: 0
+  itemName: Helmet
+  icon: {fileID: -487680562, guid: 343e13f6e9bb7cc43b8f7b2f58c15354, type: 3}
+  itemId: b9de5b3de9a2bab4eb633d08e9ee24cb
+  itemValue: 25
+  dropChance: 40
+  equipmentType: 2
+  damage: 0
+  critChance: 0
+  critPower: 0
+  maxHealth: 10
+  armor: 4

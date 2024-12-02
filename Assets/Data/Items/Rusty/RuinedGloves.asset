@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fe7a299d25c96b4e9edfeb307be323f, type: 3}
+  m_Name: RuinedGloves
+  m_EditorClassIdentifier: 
+  itemType: 0
+  itemName: Ruined Gloves
+  icon: {fileID: 2117779611, guid: 343e13f6e9bb7cc43b8f7b2f58c15354, type: 3}
+  itemId: 3db22150fa1ae264685a7e4f7a606b9d
+  itemValue: 5
+  dropChance: 60
+  equipmentType: 4
+  damage: 0
+  critChance: 5
+  critPower: 5
+  maxHealth: 5
+  armor: 0

@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fe7a299d25c96b4e9edfeb307be323f, type: 3}
+  m_Name: RustySword
+  m_EditorClassIdentifier: 
+  itemType: 0
+  itemName: Rusty Sword
+  icon: {fileID: -553433982, guid: 343e13f6e9bb7cc43b8f7b2f58c15354, type: 3}
+  itemId: 00ff0e0f6f4342d42847ecc10a32a432
+  itemValue: 15
+  dropChance: 60
+  equipmentType: 0
+  damage: 5
+  critChance: 5
+  critPower: 5
+  maxHealth: 0
+  armor: 0

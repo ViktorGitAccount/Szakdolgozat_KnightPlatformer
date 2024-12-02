@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fe7a299d25c96b4e9edfeb307be323f, type: 3}
+  m_Name: Boots
+  m_EditorClassIdentifier: 
+  itemType: 0
+  itemName: Leather Boots
+  icon: {fileID: -1766223968, guid: 343e13f6e9bb7cc43b8f7b2f58c15354, type: 3}
+  itemId: b7e0dbb2f94d6314286d0db74979e52f
+  itemValue: 15
+  dropChance: 40
+  equipmentType: 3
+  damage: 0
+  critChance: 0
+  critPower: 0
+  maxHealth: 10
+  armor: 5

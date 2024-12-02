@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Ground
+  - MovingPlatform
+  - Enemy
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Ground
+  - Water
+  - UI
+  - Player
+  - Enemy
+  - Sword
+  - Item
+  - FallZone
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 2963834361
+    locked: 0
+  - name: Ground
+    uniqueID: 2113299221
+    locked: 0
+  - name: Checkpoint
+    uniqueID: 3334962179
+    locked: 0
+  - name: Item
+    uniqueID: 3366491611
+    locked: 0
+  - name: Enemy
+    uniqueID: 2469638289
+    locked: 0
+  - name: Player
+    uniqueID: 1131697103
+    locked: 0
