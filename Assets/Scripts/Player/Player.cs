@@ -5,6 +5,14 @@ public class Player : Core
 {
     public bool isBusy;
 
+
+    [Header("AudioFX")]
+
+    public AudioSource parrySound;
+    public AudioSource healSound;
+    public AudioSource jumpSound;
+
+
     [Header("Attack details")]
     public Vector2[] attackMovement;
     public float parryDuration = .2f;

@@ -19,6 +19,8 @@ public class PlayerDashState : PlayerState
 
         player.MakeInvincible(true);
 
+        player.jumpSound.Play();
+
     }
 
     public override void Exit()

@@ -11,6 +11,8 @@ public class UndeadKnightAttackState : EnemyState
     public override void Enter()
     {
         base.Enter();
+
+        enemy.attackSound.Play();
     }
 
     public override void Exit()

@@ -15,6 +15,8 @@ public class DeadStateBoss : EnemyState
     public override void Enter()
     {
         base.Enter();
+
+        enemy.deadSound.Play();
     }
 
     public override void Exit()

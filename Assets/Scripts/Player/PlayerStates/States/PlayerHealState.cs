@@ -11,6 +11,7 @@ public class PlayerHealState : PlayerState
     {
         base.Enter();
 
+        player.healSound.Play();
 
         if (!player.skill.heal.CanUseSkill())
             stateMachine.ChangeState(player.idleState);

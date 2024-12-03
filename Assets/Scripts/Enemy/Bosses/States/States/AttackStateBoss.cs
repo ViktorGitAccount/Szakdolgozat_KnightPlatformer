@@ -11,6 +11,8 @@ public class AttackStateBoss : EnemyState
     public override void Enter()
     {
         base.Enter();
+
+        enemy.attackSound.Play();
     }
 
     public override void Exit()

@@ -8,6 +8,8 @@ public class GameManager : MonoBehaviour, ISaveManager
 
     private Transform player;
 
+    [SerializeField] private AudioSource gameMusic;
+
     [SerializeField] private Checkpoint[] checkpoints;
     [SerializeField] private string closestCheckPointLoaded;
 

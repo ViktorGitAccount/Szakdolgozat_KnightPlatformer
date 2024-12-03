@@ -11,6 +11,7 @@ public class UndeadArcher_AttackState : EnemyState
     public override void Enter()
     {
         base.Enter();
+        enemy.attackSound.Play();
     }
 
     public override void Exit()

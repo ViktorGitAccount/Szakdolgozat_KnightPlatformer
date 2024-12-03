@@ -17,6 +17,10 @@ public class Core : MonoBehaviour
     public Rigidbody2D rb { get; private set; }
     public CoreFX fx { get; private set; }
 
+    [Header("AudioFX")]
+    public AudioSource deadSound;
+    public AudioSource attackSound;
+
     [Header("Knockback info")]
     [SerializeField] protected Vector2 knockbackDirection;
     [SerializeField] protected float knockbackDuration;

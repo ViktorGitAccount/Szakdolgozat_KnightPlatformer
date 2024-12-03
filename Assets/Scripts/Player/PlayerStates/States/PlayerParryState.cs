@@ -62,5 +62,6 @@ public class PlayerParryState : PlayerState
         stateTimer = 2;
         player.fx.ShakeScreen();
         player.animator.SetBool("PerfectParry", true);
+        player.parrySound.Play();
     }
 }

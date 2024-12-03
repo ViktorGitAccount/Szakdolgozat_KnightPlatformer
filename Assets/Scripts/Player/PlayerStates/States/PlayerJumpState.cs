@@ -16,6 +16,8 @@ public class PlayerJumpState : PlayerState
 
         rb.velocity = new Vector2(rb.velocity.x, player.jumpForce);
         isJumping = true;
+
+        player.jumpSound.Play(); 
     }
 
     public override void Exit()

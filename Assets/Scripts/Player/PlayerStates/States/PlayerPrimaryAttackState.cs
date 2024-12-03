@@ -29,6 +29,11 @@ public class PlayerPrimaryAttackState : PlayerState
         player.SetVelocity(player.attackMovement[comboCounter].x * attackDir, player.attackMovement[comboCounter].y);
 
         stateTimer = .1f;
+
+        if (player.attackSound != null)
+        {
+            player.attackSound.Play();
+        }
     }
 
     public override void Exit()
