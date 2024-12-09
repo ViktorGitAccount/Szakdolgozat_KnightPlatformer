@@ -208,7 +208,6 @@ public class Inventory : MonoBehaviour, ISaveManager
 
     public void RemoveItemFromEquipSlot(ItemData _item)
     {
-        // This method removes the item without adding currency.
         if (inventoryDictionary.TryGetValue(_item, out InventoryItem value))
         {
             if (value.stackSize <= 1)
